@@ -225,7 +225,8 @@ a {
   font-style: normal;
   font-weight: 200;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-extralight.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-extralight.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-extralight.woff') format('woff');
 }
 
 @font-face {
@@ -233,7 +234,8 @@ a {
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-light.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-light.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-light.woff') format('woff');
 }
 
 @font-face {
@@ -241,7 +243,8 @@ a {
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-regular.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-regular.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-regular.woff') format('woff');
 }
 
 @font-face {
@@ -249,7 +252,8 @@ a {
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-medium.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-medium.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-medium.woff') format('woff');
 }
 
 @font-face {
@@ -257,7 +261,8 @@ a {
   font-style: normal;
   font-weight: 600;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-semibold.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-semibold.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-semibold.woff') format('woff');
 }
 
 @font-face {
@@ -265,7 +270,8 @@ a {
   font-style: normal;
   font-weight: 700;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-bold.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-bold.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-bold.woff') format('woff');
 }
 
 @font-face {
@@ -273,7 +279,71 @@ a {
   font-style: normal;
   font-weight: 800;
   src: local(''),
-       url('../fonts/iosevka-term-curly-slab-extrabold.woff2') format('woff2');
+       url('../fonts/iosevka-term-curly-slab-extrabold.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-extrabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 200;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-extralightoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-extralightoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-lightoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-lightoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-regularoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-regularoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-mediumoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-mediumoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-semiboldoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-semiboldoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-boldoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-boldoblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Iosevka Term Curly Slab";
+  font-style: oblique;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/iosevka-term-curly-slab-extraboldoblique.woff2') format('woff2'),
+       url('../fonts/iosevka-term-curly-slab-extraboldoblique.woff') format('woff');
 }
 
 @font-face {
